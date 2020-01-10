@@ -65,7 +65,7 @@ to the following URLs:
 * To query the search API: `https://api.nytimes.com/svc/movies/v2/reviews/search.json?query=<search-term>`
 
 If the api key in the starter code does not work in getting you the data you need, you can request an API key
-from [here](https://developer.nytimes.com/signup). Once you have the key, you
+from [here](https://developer.nytimes.com/accounts/create). Once you have the key, you
 can "sign" your requests by attaching the key to the URL like so:
 
 ```
@@ -78,12 +78,12 @@ https://api.nytimes.com/svc/movies/v2/reviews/search.json?api-key=<your-api-key>
 For further information about the _New York Times_ Movie Reviews API — including
 a sandbox where you can view the data that the API returns — please consult
 [their
-documentation](http://developer.nytimes.com/movie_reviews_v2.json#/Documentation/GET/reviews/search.json).
+documentation](https://developer.nytimes.com/docs/movie-reviews-api/1/routes/reviews/search.json/get).
 
 ## Resources
 
 - [Container Components](https://medium.com/@learnreact/container-components-c0e67432e005#.2kd1wuyp4)
 - [CSS Tricks: Container Components](https://css-tricks.com/learning-react-container-components/)
-- [_New York Times_ Movie Reviews API Documentation](http://developer.nytimes.com/movie_reviews_v2.json#/Documentation)
+- [_New York Times_ Movie Reviews API Documentation](https://developer.nytimes.com/docs/movie-reviews-api/1/overview)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/react-container-components-lab'>Container Components Lab</a> on Learn.co and start learning to code for free.</p>
