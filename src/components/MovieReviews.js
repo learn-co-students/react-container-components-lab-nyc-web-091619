@@ -22,6 +22,12 @@ MovieReviews.defaultProps = { reviews: [] }
 
 export default MovieReviews
 
+function FUNCTION_NAME(){
+	fetch(SITE)
+	.then (resp => resp.json())
+	.then (json => json.forEach(callout))
+}
+
 // <h1>{review.display_title}</h1>
 // <h3>by {review.byline}</h3>
 // <h5>{review.headline}</h5>
